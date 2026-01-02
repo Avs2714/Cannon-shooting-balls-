@@ -39,11 +39,6 @@ class Ball{
     this.r=18;
     this.mass=this.r*2;
   }
-  applyTorque(torque)
-  {
-    let t=p5.Vector.mult(torque,this.r+this.r81/3);
-    
-  }
  
   applyForce(force)
   {
